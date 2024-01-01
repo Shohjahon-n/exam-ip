@@ -1,0 +1,41 @@
+header {
+    background-image: url('../../images/body-bg-pattern.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #443D97;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 33px;
+    padding-bottom: 100px;
+    width: 100%;
+
+    h1 {
+        font-family: Rubik;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: -0.2857142984867096px;
+        text-align: left;
+        padding-bottom: 31px;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    header {
+        background-image: url('../../images/body-bg.png');
+        padding-bottom: 74px;
+
+        h1 {
+            color: #FFF;
+            font-family: Rubik;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: -0.232px;
+            padding-bottom: 30px;
+        }
+    }
+}
