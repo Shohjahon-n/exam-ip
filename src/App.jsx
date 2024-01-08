@@ -7,7 +7,7 @@ class App extends React.Component {
         results: [],
         showResults: false,
         isLoading: false,
-        error: ''
+        error: '',
     }
     handleSearch = (e) => {
         this.setState({

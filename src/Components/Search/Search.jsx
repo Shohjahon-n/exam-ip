@@ -6,11 +6,11 @@ class Search extends React.Component {
         const { handleSearch, handleSearchSubmit, searchText, error } = this.props
         return (
             <>
-                <form action="" onSubmit={handleSearchSubmit}>
+                <form onSubmit={handleSearchSubmit}>
                     <input type="text" placeholder="Search for any IP address or domain"
                         onChange={handleSearch}
                         value={searchText}
-                    />
+                    />  
                     <button type="search">&#62;</button>
                 </form>
                 <span className="error">{error}</span>
