@@ -7,10 +7,10 @@ class Search extends React.Component {
         return (
             <>
                 <form onSubmit={handleSearchSubmit}>
-                    <input type="text" placeholder="Search for any IP address or domain"
+                    <input type="search" placeholder="Search for any IP address or domain"
                         onChange={handleSearch}
                         value={searchText}
-                    />  
+                    />
                     <button type="search">&#62;</button>
                 </form>
                 <span className="error">{error}</span>
