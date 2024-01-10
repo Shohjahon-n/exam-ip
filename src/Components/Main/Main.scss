@@ -6,7 +6,6 @@ img {
 }
 
 main {
-
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -71,11 +70,6 @@ main {
         align-items: center;
         padding-bottom: 0;
 
-        .ip-adress,
-        .location,
-        .time {
-            border-right: none;
-        }
 
         .ip-adress {
             margin-top: 10px;
@@ -123,7 +117,6 @@ main {
         }
     }
 }
-
 
 .loader {
     display: flex;
