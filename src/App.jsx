@@ -15,7 +15,7 @@ class App extends React.Component {
         })
     }
 
-    handleSearchSubmit = (e) => {
+    handleSearchSubmit = async (e) => {
         e.preventDefault();
         this.setState({
             isLoading: true,
@@ -36,7 +36,7 @@ class App extends React.Component {
             })
         }
 
-        fetch(`https://geo.ipify.org/api/v2/country?apiKey=at_KYQWYbOEZMOzAxPrb89wdU9j6PiuJ&
+        await fetch(`https://geo.ipify.org/api/v2/country?apiKey=at_f9KjO2gRtWa3ifRMv7L70Q7Oe445r&
         ${isNaN(this.state.searchText) ? 'domain' : 'ipAddress'}=${this.state.searchText}`)
             .then(res => res.json())
             .then(data => {
