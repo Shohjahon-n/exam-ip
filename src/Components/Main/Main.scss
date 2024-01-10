@@ -108,14 +108,13 @@ main {
 @media screen and (max-width: 940px) {
     main {
         flex-direction: column;
-        height: 276px;
     }
 }
 
 @media screen and (max-width: 880px) {
     main {
         flex-wrap: nowrap;
-        height: 327px;
+        height: 300px;
 
         .ip-adress,
         .location,
@@ -123,9 +122,8 @@ main {
             border-right: none;
         }
     }
-
-
 }
+
 
 .loader {
     display: flex;
